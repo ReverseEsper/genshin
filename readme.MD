@@ -1,3 +1,3 @@
 * Code for testing Genshin Statistics
 
-Last Test !
+Not last at all!
