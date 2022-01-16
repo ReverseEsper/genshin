@@ -16,11 +16,14 @@ def githubIssue():
     data = request.json
     ##pp (data)
     print ("Wydaje mi się, ze jest coś do pociągnięcia")
-    # 1. Update Git Repository
     g = git.cmd.Git("/root/Git/genshin")
     g.pull()
-    # 2. If webhook was changed, restart webhook service
-    # Test 2
+    # Check if webhook was modified
+    if "commits" in data:
+        for commit in data["commits"]:
+            if "modified" in commit:
+                print(f"Modified File: {commit['modified']}")
+        
     return 'Webhooks with Python'
 
 
