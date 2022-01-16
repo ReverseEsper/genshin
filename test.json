@@ -1,8 +1,7 @@
-
 {
     "ref": "refs/heads/master",
-    "before": "d882aa23b32b6ee75581bbfe8d6f334e73a904c7",
-    "after": "50080017a25206fbb00f6ad3850fff85a82a6fef",
+    "before": "50080017a25206fbb00f6ad3850fff85a82a6fef",
+    "after": "c12482868daec480c506cb885b1ab5e50f229fef",
     "repository": {
       "id": 438190257,
       "node_id": "R_kgDOGh5AsQ",
@@ -73,13 +72,13 @@
       "deployments_url": "https://api.github.com/repos/ReverseEsper/genshin/deployments",
       "created_at": 1639473730,
       "updated_at": "2021-12-14T09:24:54Z",
-      "pushed_at": 1642357473,
+      "pushed_at": 1642359479,
       "git_url": "git://github.com/ReverseEsper/genshin.git",
       "ssh_url": "git@github.com:ReverseEsper/genshin.git",
       "clone_url": "https://github.com/ReverseEsper/genshin.git",
       "svn_url": "https://github.com/ReverseEsper/genshin",
       "homepage": null,
-      "size": 13685,
+      "size": 13687,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "Python",
@@ -135,15 +134,15 @@
     "deleted": false,
     "forced": false,
     "base_ref": null,
-    "compare": "https://github.com/ReverseEsper/genshin/compare/d882aa23b32b...50080017a252",
+    "compare": "https://github.com/ReverseEsper/genshin/compare/50080017a252...c12482868dae",
     "commits": [
       {
-        "id": "50080017a25206fbb00f6ad3850fff85a82a6fef",
-        "tree_id": "350d2bf07ec91d9a2f92402d27d92556925d7ff6",
+        "id": "1e6a14554f57c177507b97afe73d35be5a0687a3",
+        "tree_id": "71bd34d456c81540314553f0f7954bdfeffda437",
         "distinct": true,
-        "message": "..",
-        "timestamp": "2022-01-16T19:24:31+01:00",
-        "url": "https://github.com/ReverseEsper/genshin/commit/50080017a25206fbb00f6ad3850fff85a82a6fef",
+        "message": "commit1",
+        "timestamp": "2022-01-16T19:57:30+01:00",
+        "url": "https://github.com/ReverseEsper/genshin/commit/1e6a14554f57c177507b97afe73d35be5a0687a3",
         "author": {
           "name": "Adam Kurowski",
           "email": "adam.kurowski@stepstone.com"
@@ -153,24 +152,73 @@
           "email": "adam.kurowski@stepstone.com"
         },
         "added": [
-          "webhook_service/install_files/webhook.service",
-          "webhook_service/readme.MD"
+  
         ],
         "removed": [
-          "webhook_service/webhook.service"
+  
+        ],
+        "modified": [
+          "webhook_service/webhook.py"
+        ]
+      },
+      {
+        "id": "4164da5f62be506be9904f714a592bd126c9990b",
+        "tree_id": "4456f4b5b7d83a7dddd2b44a9302f0bab8672374",
+        "distinct": true,
+        "message": "commit2",
+        "timestamp": "2022-01-16T19:57:40+01:00",
+        "url": "https://github.com/ReverseEsper/genshin/commit/4164da5f62be506be9904f714a592bd126c9990b",
+        "author": {
+          "name": "Adam Kurowski",
+          "email": "adam.kurowski@stepstone.com"
+        },
+        "committer": {
+          "name": "Adam Kurowski",
+          "email": "adam.kurowski@stepstone.com"
+        },
+        "added": [
+          "test.json"
+        ],
+        "removed": [
+  
         ],
         "modified": [
   
         ]
+      },
+      {
+        "id": "c12482868daec480c506cb885b1ab5e50f229fef",
+        "tree_id": "0e2009dc4d91caa131e3880149aad133bcf20c03",
+        "distinct": true,
+        "message": "commit3",
+        "timestamp": "2022-01-16T19:57:55+01:00",
+        "url": "https://github.com/ReverseEsper/genshin/commit/c12482868daec480c506cb885b1ab5e50f229fef",
+        "author": {
+          "name": "Adam Kurowski",
+          "email": "adam.kurowski@stepstone.com"
+        },
+        "committer": {
+          "name": "Adam Kurowski",
+          "email": "adam.kurowski@stepstone.com"
+        },
+        "added": [
+  
+        ],
+        "removed": [
+  
+        ],
+        "modified": [
+          "webhook_service/webhook.py"
+        ]
       }
     ],
     "head_commit": {
-      "id": "50080017a25206fbb00f6ad3850fff85a82a6fef",
-      "tree_id": "350d2bf07ec91d9a2f92402d27d92556925d7ff6",
+      "id": "c12482868daec480c506cb885b1ab5e50f229fef",
+      "tree_id": "0e2009dc4d91caa131e3880149aad133bcf20c03",
       "distinct": true,
-      "message": "..",
-      "timestamp": "2022-01-16T19:24:31+01:00",
-      "url": "https://github.com/ReverseEsper/genshin/commit/50080017a25206fbb00f6ad3850fff85a82a6fef",
+      "message": "commit3",
+      "timestamp": "2022-01-16T19:57:55+01:00",
+      "url": "https://github.com/ReverseEsper/genshin/commit/c12482868daec480c506cb885b1ab5e50f229fef",
       "author": {
         "name": "Adam Kurowski",
         "email": "adam.kurowski@stepstone.com"
@@ -180,14 +228,13 @@
         "email": "adam.kurowski@stepstone.com"
       },
       "added": [
-        "webhook_service/install_files/webhook.service",
-        "webhook_service/readme.MD"
+  
       ],
       "removed": [
-        "webhook_service/webhook.service"
+  
       ],
       "modified": [
-  
+        "webhook_service/webhook.py"
       ]
     }
   }
