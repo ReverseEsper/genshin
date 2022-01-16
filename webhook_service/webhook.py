@@ -20,7 +20,7 @@ def githubIssue():
     g = git.cmd.Git("/root/Git/genshin")
     g.pull()
     # 2. If webhook was changed, restart webhook service
-
+    # Test 1
     return 'Webhooks with Python'
 
 
