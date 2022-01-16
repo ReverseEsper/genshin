@@ -4,6 +4,8 @@ from flask_cors import CORS
 from pprint import pprint as pp
 import git
 
+from subprocess import call
+
 app = Flask(__name__)
 CORS(app)
 
@@ -25,6 +27,10 @@ def githubIssue():
                 print(f"Modified File: {commit['modified']}")
                 if 'webhook_service/webhook.py' in commit['modified']:
                     print ("Webhook modified, has to restart service")
+                    # So... now we have to ... restart that service ? 
+                    
+                    call(["systemctl", "daemon-reload"])
+                    call(["systemctl", "restart webhook.service"])
             
         
     return 'Webhooks with Python'
