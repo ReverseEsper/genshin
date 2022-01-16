@@ -31,6 +31,7 @@ def githubIssue():
                     
                     call(["systemctl", "daemon-reload"])
                     call(["systemctl", "restart webhook.service"])
+                    print("Service Restarted")
             
         
     return 'Webhooks with Python'
