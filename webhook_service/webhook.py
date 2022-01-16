@@ -31,7 +31,7 @@ def githubIssue():
 
                     call(["systemctl", "daemon-reload"])
                     call(["systemctl", "restart webhook.service"])
-                    logging.info('Service Restarted. Actaully that should not show.')
+                    logging.info('Service Restarted. Actaully that should not show...')
                     
             
         
