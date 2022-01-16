@@ -23,6 +23,8 @@ def githubIssue():
         for commit in data["commits"]:
             if commit['modified']:
                 print(f"Modified File: {commit['modified']}")
+                if 'webhook_service/webhook.py' in commit['modified']:
+                    print ("Webhook modified, has to restart service")
             
         
     return 'Webhooks with Python'
