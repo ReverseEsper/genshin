@@ -16,7 +16,7 @@ def githubIssue():
     data = request.json
     ##pp (data)
     print ("Wydaje mi się, ze jest coś do pociągnięcia")
-    g = git.cmd.Git("./")
+    g = git.cmd.Git("/root/Git/genshin")
     g.pull()
 
     return 'Webhooks with Python'
