@@ -21,8 +21,9 @@ def githubIssue():
     # Check if webhook was modified
     if "commits" in data:
         for commit in data["commits"]:
-            if "modified" in commit:
+            if commit['modified']:
                 print(f"Modified File: {commit['modified']}")
+            
         
     return 'Webhooks with Python'
 
