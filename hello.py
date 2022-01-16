@@ -2,6 +2,7 @@ from flask import Flask,request,json
 from flask_cors import CORS
 
 from pprint import pprint as pp
+import git
 
 app = Flask(__name__)
 CORS(app)
@@ -13,10 +14,11 @@ def hello():
 @app.route('/githubIssue',methods=['POST'])
 def githubIssue():
     data = request.json
-#    print(f'Issue {data["issue"]["title"]} {data["action"]}')
-#    print(f'{data["issue"]["body"]}')
-#    print(f'{data["issue"]["url"]}')
-    pp (data)
+    ##pp (data)
+    print ("Wydaje mi się, ze jest coś do pociągnięcia")
+    g = git.cmd.Git("./")
+    g.pull()
+
     return 'Webhooks with Python'
 
 
