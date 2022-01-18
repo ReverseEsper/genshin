@@ -30,7 +30,7 @@ def githubIssue():
                     logging.info('Webhook modified, has to restart service')
 
                     call(["systemctl", "daemon-reload"])
-                    call(["systemctl", "restart webhook.service"])
+                    call(["systemctl", "restart", "webhook.service"])
                     logging.info('Service Restarted. Actaully that should not show...')
                     
             
